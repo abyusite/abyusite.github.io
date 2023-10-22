@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    background-color: black;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+header{
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 25px;
+    padding: 5px 10px;
+}
+.logo{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50%;
+    color: white;
+    padding-left: 20px;
+}
+nav{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+ nav ul{
+  text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    padding: 4px 8px;
+    padding: 5px 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+nav ul li a:hover{
+    color: rgba(29, 202, 202, 0.911);
+    transition: .2s;
+}
+img{
+    width: 80%;
+    height: 90vh;
+    margin-left: 50px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+#about{
+    width: 80%;
+    height: 90vh;
+    stroke: antiquewhite;
+    stroke-width: 1px 10px;
+}
+.conntent{
+    position:relative;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translateY(-50%);
+}
+h1{
+    color: rgba(29, 202, 202, 0.911);
+    margin-bottom: 15px;
+}
+h3{
+    color: white;
+    margin-bottom: 10px;
+}
+p{
+    letter-spacing: 1px;
+    margin-top: 25px;
+}
+.para{
+    margin-left:70px;
+    margin-top:100px;
+}
+.stud{
+    text-align: center;
+    text-size-adjust: 50px;
+    margin-top: 100px;
+}
+button{
+    color: white;
+    background-color: rgb(53, 21, 21);
+    padding:5px 10px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+button:hover{
+    color: rgba(29, 202, 202, 0.911);
+    transition: .2s;
+    background-color: rgb(43, 44, 44);
+}
+.contact{
+    margin: 120px;
+    align-items: center;
+}
+.submit{
+    color: white;
+    background-color: rgb(53, 21, 21);
+    padding:5px 15px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.service-main
+{
+    z-index: 0;
+position: relative;
+
+}
+
+.service-content 
+{
+    display: none;
+    z-index: 1;
+    position: absolute;
+}
+ul li a .service-main:hover .service-content li
+{
+    display: block;
+}
